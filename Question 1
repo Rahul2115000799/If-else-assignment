@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class Squarecheck{
+ public static void main(String[] args){
+  Scanner sc = new Scanner(System.in);
+  double l = sc.nextDouble();           //taking length 
+  double b = sc.nextDouble();           //taking breadth
+
+  if(l == b){                                 // checking conndition
+	System.out.println("It is a Square");
+}
+  else{
+	System.out.println("It is not a Square");
+}
+}
+}
